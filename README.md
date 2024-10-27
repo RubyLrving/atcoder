@@ -4,7 +4,7 @@ atcoderのコードを保管
 ### ディレクトリからtestsフォルダを削除
 
 ```
-find . -type d -name "tests" -exec echo {} +
+find . -type d -name "tests" -exec rm -rf {} +
 ```
 
 ### ディレクトリからa.outファイルを削除
